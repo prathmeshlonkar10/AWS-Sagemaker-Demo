@@ -1,6 +1,6 @@
 # AWS SageMaker End-to-End Model Deployment Workflow
 
-![AWS Sagemaker](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAjJJVP5yFl_6XgEwFSzBz7KcZsNL2XAclOA&s)
+![AWS Sagemaker](https://i.ytimg.com/vi/Z6Y9VIc6nkk/maxresdefault.jpg)
 
 This project demonstrates a complete machine learning pipeline using **AWS SageMaker**, showcasing how to prepare data, train a model, deploy it as an endpoint, perform inference, and clean up resources — all programmatically from your local IDE.
 
