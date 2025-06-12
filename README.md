@@ -1,8 +1,11 @@
 # End-to-End MLOps Workflow with AWS S3, SageMaker, Lambda, & API Gateway
 
-![MLOps Architecture](assets/architecture.png)
-
+## Project Overview
 This project demonstrates a complete machine learning pipeline using **AWS SageMaker**, showcasing how to prepare data, train a model, deploy it as an endpoint, perform inference utilizing **AWS Lambda** and **AWS API Gateway**, and then clean up resources — all programmatically from your local IDE.
+
+## Architecture Diagram
+
+![MLOps Architecture](assets/architecture.png)
 
 ---
 
