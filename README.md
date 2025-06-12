@@ -1,18 +1,20 @@
-# AWS SageMaker End-to-End Model Deployment Workflow
+# End-to-End MLOps Workflow with AWS S3, SageMaker, Lambda, & API Gateway
 
-![AWS Sagemaker](https://i.ytimg.com/vi/Z6Y9VIc6nkk/maxresdefault.jpg)
+![MLOps Architecture](assets/architecture.png)
 
-This project demonstrates a complete machine learning pipeline using **AWS SageMaker**, showcasing how to prepare data, train a model, deploy it as an endpoint, perform inference, and clean up resources — all programmatically from your local IDE.
+This project demonstrates a complete machine learning pipeline using **AWS SageMaker**, showcasing how to prepare data, train a model, deploy it as an endpoint, perform inference utilizing **AWS Lambda** and **AWS API Gateway**, and then clean up resources — all programmatically from your local IDE.
 
 ---
 
 ## 🚀 Overview
 
-The goal of this demo is to **learn and implement the full ML workflow** using SageMaker's managed services. It covers:
+The goal of this demo is to **learn and implement the full MLOps workflow** using AWS's managed services. It covers:
 
-- Uploading data to Amazon S3
+- Uploading data to the Amazon S3 bucket
 - Writing a training script (`script.py`)
-- Launching a SageMaker training job
+- Launching an AWS SageMaker training job
 - Deploying the trained model as a real-time endpoint
-- Making predictions on test data
-- Tearing down the endpoint to avoid extra costs
+- Accessing the endpoint using AWS Lambda
+- Accessing the Lambda component using the AWS API Gateway with REST API
+- Making predictions on test data through Lambda & API Gateway 
+- Tearing down the model endpoint to avoid extra costs
