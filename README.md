@@ -16,7 +16,7 @@ This demo covers:
 
 ## 📊 Architecture Diagram
 
-![MLOps Architecture](assets/architecture.png)
+![MLOps Architecture](assets/architecture_2.png)
 
 ---
 
