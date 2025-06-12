@@ -14,11 +14,28 @@ This demo covers:
 - Making predictions on test data through Lambda & API Gateway 
 - Tearing down the model endpoint to avoid extra costs
 
-## Architecture Diagram
+## 📊 Architecture Diagram
 
 ![MLOps Architecture](assets/architecture.png)
 
 ---
+
+## 🧠 Key Learnings
+
+1. End-to-End Machine Learning Lifecycle on AWS
+- Understood and implemented the full ML pipeline:
+  - Data preprocessing
+  - Model training
+  - Model evaluation
+  - Deployment to a real-time endpoint
+"Learned to take a raw dataset from CSV all the way to a production-ready inference pipeline using AWS."
+
+2. SageMaker Hands-on
+- Used SageMaker’s built-in XGBoost estimator
+- Uploaded datasets and models to Amazon S3
+- Trained and deployed a model using SageMaker Estimator API
+- Created and invoked a SageMaker real-time endpoint
+"Explored model versioning, cloud storage for data/model artifacts, and deployment best practices."
 
 
 
