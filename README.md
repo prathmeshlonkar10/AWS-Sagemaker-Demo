@@ -63,6 +63,7 @@ This demo covers:
 *"Now confident in presenting ML systems to technical and non-technical stakeholders."*
 
 **6. Soft Skill**
+
 *“This project also helped me improve my problem-solving mindset. I faced real deployment issues — like payload serialization, permission errors, 500s — and resolved them independently using AWS docs, StackOverflow, and logs.”*
 
 ## 💡 Future Scope & Enhancements
